@@ -1,0 +1,61 @@
+    1  cd /mnt/026MCA16
+    2  cd sem4
+    3  cd as=dm
+    4  cd adm
+    5  cd /mnt/026MCA16
+    6  cd sem4
+    7  cd adm
+    8  mkdir git2
+    9  cd git2
+   10  git init
+   11  ls -a
+   12  cat README.txt
+   13  cat >README.txt
+   14  ls -a
+   15  git status
+   16  git add README.txt
+   17  git status
+   18  git commit -m "Initial commit"
+   19  mkdir src
+   20  cd src
+   21  touch file4.txt file5.txt file6.txt
+   22  ls -a
+   23  git status
+   24  git add .
+   25  git status
+   26  git commit -m "Second commit"
+   27  cat >>file4.txt
+   28  cat file4.txt
+   29  git diff
+   30  git status
+   31  git add file4.txt
+   32  git diff
+   33  git status
+   34  git commit -m "Last commit option"
+   35  git log
+   36  git show
+   37  git commit -m "The git program committed"
+   38  git rm file5.txt
+   39  git status
+   40  git add file5.txt
+   41  git status
+   42  touch
+   43  touch file5.txt
+   44  rm file5.txt
+   45  git status
+   46  git commit -m "The deletion is committed"
+   47  git mv README.txt readme.txt
+   48  cd ..
+   49  git mv README.txt readme.txt
+   50  ls -a
+   51  git log
+   52  git show 946e73
+   53  git show c62549
+   54  git show -3
+   55  git help log
+   56  git diff --stat
+   57  git show --stat
+   58  git log --stat
+   59  git diff 511891..c62549
+   60  cat >out.txt
+   61  history>out.txt
